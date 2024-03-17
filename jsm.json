@@ -310,6 +310,12 @@
 			"searchable": 1,
 			"ext": "https://www.bdys10.com/$$$null$$$1"
 		},
+    {"key":"Xpanpan","name":"自营┃XP","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "Fangniu4k",
       "name": "自营┃FN",
@@ -319,7 +325,6 @@
       "searchable": 1,
       "changeable": 0
     },
-    {"key":"Xpanpan","name":"自营┃XP","type":3,"api":"csp_Xpanpan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"},
     {
       "key": "快看",
       "name": "自营┃KK",
@@ -514,17 +519,12 @@
 			"ext":"https://www.duanjutv.icu"
 		},
     {"key":"Qianfan","name":"千帆┃🍭","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$./lib/qianfan.txt$$$1"},
-    {
-      "key": "Panta",
-      "name": "盘TA┃🍭",
-      "type": 3,
-      "api": "csp_Panta",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
-    },
+    	{"key":"Panta","name":"盘TA┃🍭","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {"key":"盘友圈","name":"盘YQ┃🍭","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/tokenm.json"},
      {
       "key": "YiSo",
@@ -548,7 +548,12 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
-    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"},
+    {"key":"YunSo","name":"云搜┃🍭","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "PanSearch",
       "name": "盘寻┃🍭",
@@ -560,14 +565,12 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
-    {
-      "key": "秒搜",
-      "name": "秒搜┃🍭",
-      "type": 3,
-      "api": "csp_MiaoSou",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
+    {"key":"秒搜","name":"秒搜┃🍭","type":3,"api":"csp_MiaoSou","timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "YunPanOne",
       "name": "云盘┃🍭",
@@ -601,14 +604,12 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json"
     },
-    {
-      "key": "88Pan",
-      "name": "八八┃🍭",
-      "type": 3,
-      "api": "csp_EightEight",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://662688.xyz"
-    },
+    {"key":"88Pan","name":"八八┃🍭","type":3,"api":"csp_EightEight","timeout":60, "ext":"./lib/tokenm.json$$$https://662688.xyz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "DaPanSo",
       "name": "大盘┃🍭",
@@ -620,65 +621,42 @@
       "timeout": 30,
       "ext": "./lib/tokenm.json$$$https://dapanso.com$$$null"
     },
-    {
-      "key": "混合盘",
-      "name": "混合┃🍭",
-      "type": 3,
-      "api": "csp_HunHePan",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "PikaSo",
-      "name": "皮卡┃🍭",
-      "type": 3,
-      "api": "csp_PikaSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null"
-    },
-   {
-      "key": "UP云搜",
-      "name": "云搜UP┃🍭",
-      "type": 3,
-      "api": "csp_UpYun",
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "drpy_js_愛盤搜",
-      "name": "夸克AP┃🍭",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/aipanso.js",
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "Funletu",
-      "name": "夸克QP┃🍭",
-      "type": 3,
-      "api": "csp_Funletu",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
-    {
-      "key": "QuarkPanso",
-      "name": "夸克PS┃🍭",
-      "type": 3,
-      "api": "csp_QuarkPanso",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/tokenm.json"
-    },
+    {"key":"混合盘","name":"混合┃🍭","type":3,"api":"csp_HunHePan","timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"PikaSo","name":"皮卡┃🍭","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"UP云搜","name":"云搜UP┃🍭","type":3,"api":"csp_UpYun","timeout":30, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		}, 
+    {"key":"drpy_js_愛盤搜","name":"夸克AP┃🍭","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":60,
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"Funletu","name":"夸克QP┃🍭","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+    {"key":"QuarkPanso","name":"夸克PS┃🍭","type":3,"api":"csp_QuarkPanso","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "cc1",
       "name": "🍀🍁关注公众号",
@@ -708,7 +686,7 @@
     },
     {
       "key": "cc4",
-      "name": "03.13维护更新🍁🍀",
+      "name": "03.18维护更新🍁🍀",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
@@ -721,72 +699,72 @@
       "name": "live.m3u",
       "type": 0,
       "playerType": 1,
-      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/tv.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/cy.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "live.m3u1",
       "type": 0,
-      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/cy.txt",
       "playerType": 1,
-      "ua": "okhttp/3.15",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0316.txt",
+      "ua": "okhttp/3.12.13",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "live.m3u2",
       "type": 0,
-      "url": "https://raw.gitmirror.com/lxhfans2024/zby/main/mg.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans2024/zby/main/0315.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.ipv6.local",
+      "name": "live.m3u3",
       "type": 0,
-      "url": "./lib/live.ipv6.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans2024/zby/main/mg.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "live.fan",
+      "name": "live.m3u4",
       "type": 0,
-      "url": "./lib/tvlive.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/zby/main/0314.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "TXT",
+      "name": "live.lvcha",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/ywb.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "live.lvcha1",
       "type": 0,
       "playerType": 1,
-      "url": "./lib/live.txt",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans2024/lvcha/main/adult.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
     },
     {
-      "name": "Json",
+      "name": "live.lvcha2",
       "type": 1,
       "playerType": 1,
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+      "url": "https://github.moeyy.xyz/raw.githubusercontent.com/lxhfans/lvcha/main/a.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-    },
-    {
-      "name": "live.feimao",
-      "type": 0,
-      "playerType": 1,
-      "url": "./lib/tvzb.txt",
-      "ua": "okhttp/3.12.13",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "group": "redirect",
